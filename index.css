@@ -4,6 +4,6 @@
 .seat-booking {
     padding: 10px;
 }
-.seats {
-    padding: 5px;
+input[type="checkbox"] {
+    background-color:#ccc;
 }
