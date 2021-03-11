@@ -5,7 +5,8 @@
     padding: 10px;
 }
 input[type="checkbox"] {
-    background-color:#ccc;
+    width: 20px;
+    height: 20px;
 }
 
 button {
@@ -14,3 +15,11 @@ button {
     background-color:blue;
     color: white;
 }
+.seats-s::before {
+    background: green;
+}
+
+.seats
+{
+  border:1px solid red;background:yellow;
+} 
