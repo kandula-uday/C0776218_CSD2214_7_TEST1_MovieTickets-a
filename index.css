@@ -25,3 +25,11 @@ button {
     border: solid 1px red;
     background-color: seagreen;
 }
+a  {
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px;
+    margin-left: 10px;
+    color:black;
+    border:solid 1px;
+}
