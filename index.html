@@ -208,12 +208,12 @@
 
 
         
-        document.getElementById('buy-seats').onclick = testing;
+        // document.getElementById('buy-seats').onclick = testing;
         
-         function testing() {
+        //  function testing() {
         var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked').length;
         var movieSelect = document.getElementById('movies').value;
-        var movieSelect1 = document.getElementById('movies').text;
+        var movieSelect1 = document.getElementById('movies').options[document.getElementById('movies').selectedIndex].text;
         var price = (checkboxes * movieSelect);
         document.getElementById("ticket-price").innerHTML = movieSelect;
         document.getElementById("no-of-seats").innerHTML = checkboxes;
@@ -227,7 +227,7 @@
 //       var movieSelect = document.getElementById('movies').value;
 //      document.getElementById("movieselected").innerHTML = movieSelect;
 
- }
+//  }
     </script>
 </body>
 </html>
