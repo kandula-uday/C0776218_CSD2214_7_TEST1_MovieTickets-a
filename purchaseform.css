@@ -1,4 +1,6 @@
  * {
      box-sizing: border-box;
  }
- 
+ label {
+     padding: 10px;
+ }
