@@ -213,9 +213,11 @@
          function testing() {
         var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
         var movieSelect = document.getElementById('movies').value;
+        var movieSelect1 = document.getElementById('movies')
         var price = ((checkboxes.length) * movieSelect);
         document.getElementById("ticket-price").innerHTML = movieSelect;
         document.getElementById("no-of-seats").innerHTML = checkboxes.length;
+        document.getElementById("movieselected").innerHTML = movieSelect1;
         document.getAnimations("total-price").innerHTML = price;
 //     alert("hi");
 //     var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
