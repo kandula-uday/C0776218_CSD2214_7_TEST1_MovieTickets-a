@@ -211,12 +211,12 @@
         document.getElementById('buy-seats').onclick = testing;
         
          function testing() {
-        var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+        var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked').length;
         var movieSelect = document.getElementById('movies').value;
-        var movieSelect1 = document.getElementById('movies')
-        var price = ((checkboxes.length) * movieSelect);
+        var movieSelect1 = document.getElementById('movies').object;
+        var price = (checkboxes * movieSelect);
         document.getElementById("ticket-price").innerHTML = movieSelect;
-        document.getElementById("no-of-seats").innerHTML = checkboxes.length;
+        document.getElementById("no-of-seats").innerHTML = checkboxes;
         document.getElementById("movieselected").innerHTML = movieSelect1;
         document.getAnimations("total-price").innerHTML = price;
 //     alert("hi");
