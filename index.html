@@ -213,13 +213,13 @@
          function testing() {
         var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked').length;
         var movieSelect = document.getElementById('movies').value;
-        var movieSelect1 = document.getElementById('movies').object;
+        var movieSelect1 = document.getElementById('movies').text;
         var price = (checkboxes * movieSelect);
         document.getElementById("ticket-price").innerHTML = movieSelect;
         document.getElementById("no-of-seats").innerHTML = checkboxes;
         document.getElementById("movieselected").innerHTML = movieSelect1;
         document.getElementById("total-price").innerHTML = price;
-        alert(price);
+        
 //     alert("hi");
 //     var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
 //     alert(checkboxes.length);
